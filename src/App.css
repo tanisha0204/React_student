@@ -1,0 +1,153 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #495057;
+  border-radius: 8px;
+}
+
+.sidebar li ul {
+  padding-left: 10px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.sidebar li ul li {
+  font-size: 14px;
+}
+
+.sidebar div {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-container input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+
+.subject-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subject-container input {
+  width: 48%;
+}
+
+
+.form-container div {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #495057;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs button {
+  width: 30%;
+  background-color: #28a745;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background-color: #218838;
+}
